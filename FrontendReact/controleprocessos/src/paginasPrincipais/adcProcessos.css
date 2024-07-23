@@ -1,0 +1,93 @@
+
+
+.add-process-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-container {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+  padding: 30px; 
+  width: 100%;
+  max-width: 800px; 
+}
+
+.add-process-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.subprocess-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+
+.subprocess-container input {
+  flex: 1 1 200px; 
+  padding: 10px;
+}
+
+.subprocess-container button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.subprocess-container button:hover {
+  background-color: #c82333;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px; /* Espaço acima dos botões */
+}
+
+.button-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  opacity: 0.9;
+}
+
+.button-container .botao-voltar-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.button-container .botao-voltar-button:hover {
+  background-color: #0056b3;
+}
+
+.button-container .add-subprocess-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.button-container .add-subprocess-button:hover {
+  background-color: #218838;
+}
+
+.button-container .create-process-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.button-container .create-process-button:hover {
+  background-color: #0056b3;
+}

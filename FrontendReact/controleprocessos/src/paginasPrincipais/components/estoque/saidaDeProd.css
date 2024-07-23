@@ -1,0 +1,53 @@
+.register-exit-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-exit-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-exit-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-exit-container form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .register-exit-container form button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-exit-container form button:hover {
+    background-color: #45a049;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #d32f2f;
+  }
+  

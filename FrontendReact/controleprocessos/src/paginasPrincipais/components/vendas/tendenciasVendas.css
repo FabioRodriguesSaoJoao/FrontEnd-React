@@ -1,0 +1,13 @@
+.tendencias-vendas-container {
+  padding: 20px;
+}
+
+select {
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  width: 100%; 
+  height: 500px; 
+  margin: 0 auto; 
+}
